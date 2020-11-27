@@ -1,0 +1,17 @@
+{
+  "name": "playlistanalyze-serverless",
+  "version": "1.0.0",
+  "description": "This project aims to display the distribution of artists in a Spotify playlist",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "netlify dev",
+    "build": "cd client && npm run build"
+  },
+  "author": "",
+  "license": "ISC"
+}
