@@ -1,17 +1,11 @@
-# playlistAnalyze
+# playlistAnalyze-serverless
 
 This project aims to display the distribution of artists in a Spotify playlist
 
-[View App](https://d3analyze.herokuapp.com)
+[View App](https://spotify.taco.fyi)
 
 ![screenshot](https://github.com/kianga722/playlistAnalyze/blob/master/screenshot.png)
 
 ## Summary
 
-- App displays distribution of artists in a Spotify playlist according to song count in several graphical formats
-- Motivation was to develop skills in D3 and React
-
-## Future Improvements
-
-- Include more graph variety
-- Explore other metrics besides song count
+- Same as [playlistAnalyze](https://github.com/kianga722/playlistAnalyze) but now using Netlify serverless functions (to stop relying on Heroku dyno which needs to wake up)
